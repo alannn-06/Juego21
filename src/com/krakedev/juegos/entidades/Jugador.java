@@ -43,4 +43,14 @@ public class Jugador {
 			carta.imprimir();
 		}
 	}
+	
+	private int puntajeCartas;
+
+    public int getPuntajeCartas() {
+        return puntajeCartas;
+    }
+
+    public void setPuntajeCartas(int puntajeCartas) {
+        this.puntajeCartas = puntajeCartas;
+    }
 }
